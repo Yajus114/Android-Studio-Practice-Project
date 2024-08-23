@@ -37,8 +37,8 @@ class MainActivity : ComponentActivity() {
                     color = MaterialTheme.colorScheme.background
                 ) {
                     GreetingImage(
-                        stringResource(R.string.happy_birthday_text),
-                        stringResource(R.string.happy_birthday_from)
+                        stringResource(R.string.happy_birthday_text), // good practice to add strings as resources so that people have an easier time editing them, especially when apps are being translated to different languages
+                        stringResource(R.string.happy_birthday_from) // the file can be found in the 'res/values' folder
                     )
                 }
             }
